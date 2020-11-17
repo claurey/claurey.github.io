@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 13, 2);
+}
+
+header {
+  color: rgb(236, 167, 38);
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 5rem;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+h5 {
+  font-family:  sans-serif;
+  font-size: 1rem;
+  font-weight: 50;
+  font-style: italic;
+}
+
+
+.contenedor {
+  color: rgb(235, 231, 231);
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 50px auto 0 auto;
+}
+
+.contenedor__lista {
+  background-color: rgb(163, 106, 0);
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  margin: 2rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(235, 231, 231);
+}
+
+a:hover {
+  color: rgb(236, 167, 38);  
+}
+
+li{
+  line-height: 2rem;
+}
