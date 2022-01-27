@@ -1,0 +1,568 @@
+:root{
+    --primary-yellow:rgb(242,202,82,1);
+    --primary-green:#ABEDD8;
+    --primary-white:#F2F4F8;
+    --secondary-purple:#726785;
+    --secondary-green-text:#1E8F6B;
+    --secondary-green:#4c4c4c;
+    --secondary-red:#812532;
+    
+
+}
+
+
+/*General styles*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    
+    
+    font-family: 'Dongle', sans-serif;
+    font-size: 4rem;
+    line-height: 0;
+}
+
+@media screen and (max-width:1024px) {
+    .banner__information p{
+        visibility: hidden;
+    }
+
+}
+
+section{
+
+    color: var(--secondary-green);
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+/*Banner*/
+
+.banner{
+    background-image: url(../images/GirlBeach8.png);
+    background-size: cover ;
+    background-position: right;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    position: relative;
+}
+
+.banner__information{
+    position: absolute;
+    bottom: calc(50% - 400px);
+    padding: 2rem;
+    padding-left: 4rem;
+    color: #456262; /*#F9FAFF;
+    text-shadow: 2px 8px 8px var(--secondary-red);*/
+    width: 31.8rem;
+}
+
+
+
+.banner__information a{
+    color: var(--secondary-red);
+}
+
+h1{
+    font-family: 'EB Garamond', serif; 
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.banner p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+/*Section - Presentation*/
+.presentation{
+    background-image: url(../images/cusco-chincheros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 60rem;
+
+    padding: 0rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.presentation__text{
+    background-color: var(--primary-yellow);
+    border-radius: 31% 69% 40% 60% / 63% 34% 66% 37% ;
+    border: 20px solid rgba( 255, 255, 255, 0.18 );
+
+    color: var(--secondary-green);
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align:center;
+
+    padding: 5rem;
+    width: 30rem;
+}
+
+@media screen and (max-width:1024px) {
+    .presentation__text{
+        font-size: 0.8rem;
+        padding: 2.8rem;
+    }
+
+    .presentation__text span{
+        
+        font-size: 0.5rem;
+    }
+
+}
+
+.presentation__text span{
+    font-family: 'Dongle', sans-serif;
+    font-size: 2.6rem;
+    line-height: 0;
+    color: var(--secondary-red);
+}
+
+/*Section - Skills*/
+
+.skills{
+    background-color: var(--primary-green);
+
+    display: flex;
+    align-items: center;
+
+    padding: 4rem 8rem;
+    
+
+}
+
+@media screen and (max-width:1024px) {
+    .skills{
+        display: block;
+    }
+    
+}
+
+
+
+
+.skills img{
+    width: 15rem;
+    
+}
+
+.skills h2{
+    color: var(--secondary-green-text);
+}
+
+.skills h3{
+    
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.skills__information{
+    padding-right: 8rem;
+    flex-basis: 20rem;
+}
+.skills__components{
+    flex:1;
+
+    display: flex;
+    justify-content: space-around;
+
+    text-align:center;
+}
+
+.skills__design{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills__dev{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Section - Banner Development*/
+
+.development__background{
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100vw;
+    height: 43rem;
+}
+
+
+/*Section - Web Development Projects*/
+.development{
+    
+    padding: 4rem 8rem;
+    background-color: var(--primary-white);
+}
+
+.development h2{
+    color: var(--secondary-red);
+}
+
+.development__information a{
+    text-decoration:none;
+    color: var(--secondary-red);
+    font-weight: 800;
+    
+}
+
+.development__information a:hover{
+    
+    color: var(--secondary-green-text);
+}
+
+.development__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    flex-basis: 23.5rem;
+    margin-bottom: 1.5rem;
+    border: 5px solid #fdfdfd;
+    
+}
+
+.card__information{
+    background-color:#fdfdfd;
+    position: relative;  
+}
+
+.card__information h3{
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color:#A599B5;
+    font-weight: 400;
+    
+}
+.card__information img{
+    max-width: 100%;
+}
+
+.card__image{
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 18rem;
+}
+.card__image-first{
+    background-image: url(../images/developer-project-01.png);
+    
+}
+
+.card__image-second{
+    background-image: url(../images/developer-project-02.png);
+}
+.card__image-third{
+    background-image: url(../images/developer-project-03.png);
+    
+}
+
+.card__image-four{
+    background-image: url(../images/developer-project-04.png);
+}
+.card__image-fith{
+    background-image: url(../images/developer-project-05.png);
+    
+}
+
+.card__image-six{
+    background-image: url(../images/developer-project-06.png);
+}
+
+.development__tags{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    margin-top: 0;
+    padding-bottom: 1rem;
+
+}
+
+
+.development__tags p{
+    
+    border-radius: 5rem;
+    padding: 0rem 0.6rem;
+    text-align: center;
+    font-size: 0.8rem;
+
+    background: #b7b5e465;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+
+.icon__dev{
+    width: 1.5rem;
+    position: absolute;
+    bottom:2rem;
+    right: 1rem;
+    line-height: 0;
+}
+
+/*Section - Banner Illustrator*/
+
+.design__background{
+    background-image: url(../images/GirlBeach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100vw;
+    height: 43rem;
+}
+
+/*Section - Illustrations*/
+.design{
+    
+    padding: 4rem 8rem;
+    color: var(--secondary-green);
+    background-color: #FEF9EC;
+}
+
+.design .card{
+    border: 0;
+    flex-basis: 24.5rem;
+    margin-bottom: 0.3rem;
+}
+
+
+
+.design h2{
+    color: #A88D39;
+}
+
+.design__information a{
+    text-decoration:none;
+    color: #A88D39;
+    font-weight: 600;
+}
+
+.design__information a:hover{
+    
+    color: var(--secondary-green-text);
+}
+
+.design__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.design__projects .card__image{
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 500px;
+}
+
+.design__projects .card__image-first{
+    background-image: url(../images/design-project-01.png);
+    
+}
+
+.design__projects .card__image-second{
+    background-image: url(../images/design-project-02.png);
+}
+.design__projects .card__image-third{
+    background-image: url(../images/Girl5.png);
+    
+}
+
+.design__projects .card__image-four{
+    background-image: url(../images/design-project-04.png);
+    background-position: left;
+}
+.design__projects .card__image-fith{
+    background-image: url(../images/design-project-05.png);
+    
+}
+
+.design__projects .card__image-six{
+    background-image: url(../images/design-project-06.png);
+    background-position: top;
+}
+/*Section - Banner Travel*/
+
+.travel__background{
+    background-image: url(../images/Salar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    max-width: 100vw;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.travel__background h2{
+    font-family: 'EB Garamond', serif; 
+    font-size: 4rem;
+    margin-bottom: 0;
+    padding-top: 5rem;
+    color: white;
+    text-shadow: 2px 2px 2px var(--secondary-purple);
+}
+
+/*Section - Travel*/
+.travel{
+    
+    padding: 4rem 8rem;
+    color: var(--secondary-green);
+    background-color:var(--primary-white);
+}
+
+.travel__projects .card__information{
+    background-color:rgba(255, 255, 255, 0.562);
+    position: relative;
+    
+}
+
+.travel__information p{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.travel__information a{
+    text-decoration:none;
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+.travel__information a:hover{
+    
+    color: var(--secondary-green-text);
+}
+
+.travel__projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.travel__projects h3{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'EB Garamond', serif; 
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 100;
+    color: var(--secondary-green);
+    padding-bottom: 1.5rem;
+}
+
+
+
+.travel__projects .card{
+    flex-grow:1;
+    margin-bottom: 0;
+    border: 0.3px solid var(--primary-white);
+    
+}
+
+.travel__projects .card__image{
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 400px;
+}
+
+.travel__projects .card__image-first{
+    background-image: url(../images/travel-01.png);
+    background-position: right;
+    
+}
+
+.travel__projects .card__image-second{
+    background-image: url(../images/travel-05.png);
+}
+.travel__projects .card__image-third{
+    background-image: url(../images/travel-03.png);
+    
+}
+
+.travel__projects .card__image-four{
+    background-image: url(../images/travel-02.png);
+    
+}
+.travel__projects .card__image-fith{
+    background-image: url(../images/travel-06.png);
+    
+}
+
+.travel__projects .card__image-six{
+    background-image: url(../images/travel-07.png);
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: var(--primary-yellow);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    padding: 4rem 8rem;
+    padding-bottom: 0;
+    color: var(--secondary-green);
+
+    
+
+}
+
+footer h2{
+    font-size: 3rem ;
+    color: var(--secondary-red);
+}
+
+footer span{
+    font-size: 1.5rem ;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 1rem;
+    
+}
+
+.footer__rights{
+    font-size: 1rem ;
+    font-weight: 300;
+    margin-top: 3rem;
+
+}
+
+footer a{
+    color: var(--secondary-red);
+}
