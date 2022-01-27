@@ -41,7 +41,7 @@ section{
 /*Banner*/
 
 .banner{
-    background-image: url(../images/GirlBeach8.png);
+    background-image: url(../images/GirlBeach8.jpg);
     background-size: cover ;
     background-position: right;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ h1{
 /*Section - Banner Illustrator*/
 
 .design__background{
-    background-image: url(../images/GirlBeach.png);
+    background-image: url(../images/GirlBeach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
