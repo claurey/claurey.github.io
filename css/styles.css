@@ -24,12 +24,7 @@ h2{
     line-height: 0;
 }
 
-@media screen and (max-width:1024px) {
-    .banner__information p{
-        visibility: hidden;
-    }
 
-}
 
 section{
 
@@ -59,7 +54,19 @@ section{
     text-shadow: 2px 8px 8px var(--secondary-red);*/
     width: 31.8rem;
 }
+@media screen and (max-width:1024px) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner__information{
+        position: static;
+        padding-left: 2rem;
+    }
 
+}
 
 
 .banner__information a{
@@ -106,18 +113,19 @@ h1{
     text-align:center;
 
     padding: 5rem;
-    width: 30rem;
+    flex-basis: 30rem;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1200px) {
     .presentation__text{
-        font-size: 0.8rem;
-        padding: 2.8rem;
+        border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+        padding: 1.5rem 2.8rem;
     }
-
-    .presentation__text span{
-        
-        font-size: 0.5rem;
+    .presentation{
+    
+        padding: 0rem 0rem;
+        align-items: flex-end;
+        justify-content: center;
     }
 
 }
@@ -142,12 +150,6 @@ h1{
 
 }
 
-@media screen and (max-width:1024px) {
-    .skills{
-        display: block;
-    }
-    
-}
 
 
 
@@ -194,6 +196,28 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+
+@media screen and (max-width:1440px) {
+    .skills{
+        flex-wrap: wrap;
+        gap:4rem;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .skills__information{
+        
+        
+        padding-right: 0rem;
+    }
+   
+    .skills__components{
+        flex-wrap: wrap;
+    }
+    
 }
 
 /*Section - Banner Development*/
