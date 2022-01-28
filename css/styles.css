@@ -261,6 +261,7 @@ h1{
     justify-content: space-between;
 }
 
+
 .card{
     flex-basis: 23.5rem;
     margin-bottom: 1.5rem;
@@ -351,6 +352,24 @@ h1{
     right: 1rem;
     line-height: 0;
 }
+
+
+
+
+@media screen and (max-width:1024px) {
+    .development{
+        text-align: center;
+    }
+    .development__projects{
+       
+        justify-content: center;
+    }
+    .development h2{
+        line-height: 0.8;
+    }
+    
+}
+
 
 /*Section - Banner Illustrator*/
 
@@ -457,6 +476,22 @@ h1{
     color: white;
     text-shadow: 2px 2px 2px var(--secondary-purple);
 }
+
+
+@media screen and (max-width:1024px) {
+    .design{
+        text-align: center;
+    }
+    .design__projects{
+        justify-content: center;
+    }
+    .development h2{
+        line-height: 0.8;
+    }
+    
+}
+
+
 
 /*Section - Travel*/
 .travel{
