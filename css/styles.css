@@ -802,12 +802,13 @@ footer h2{
     color: var(--secondary-red);
 }
 
-footer span{
+footer span a{
     font-size: 1.5rem ;
     background-color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 1rem;
+    text-decoration: none;
     
 }
 
