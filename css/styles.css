@@ -116,7 +116,7 @@ header {
 
     .nav-menu {
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
       margin: 0;
       background-color: var(--secondary-red);
       position: fixed;
@@ -151,7 +151,7 @@ header {
     }
   
     .nav-menu_visible {
-      right: 50%;
+      right: 0%;
     }
   
     .nav-toggle:focus:not(:focus-visible) {
