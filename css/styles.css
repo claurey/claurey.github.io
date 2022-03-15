@@ -166,6 +166,7 @@ header {
 /*Banner*/
 
 .banner{
+    /* background-image: url(../images/girl-car.jpg); */
     background-image: url(../images/GirlBeach8.jpg);
     background-size: cover ;
     background-position: right;
@@ -180,7 +181,7 @@ header {
     bottom: calc(50% - 400px);
     padding: 2rem;
     padding-left: 4rem;
-    color: #456262; /*#F9FAFF;
+    color: #456262; /*#456262;
     text-shadow: 2px 8px 8px var(--secondary-red);*/
     width: 31.8rem;
 }
@@ -802,7 +803,7 @@ footer h2{
     color: var(--secondary-red);
 }
 
-footer span a{
+footer span{
     font-size: 1.5rem ;
     background-color: white;
     padding: 0.5rem 1rem;
