@@ -8,9 +8,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/flor.png">
 
      <!--Styles-->
+     
      <link rel="stylesheet" href="css/normalize.css">
      <link rel="stylesheet" href="css/styles.css">
- 
+    
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,21 +19,53 @@
     
    
     <!--Icons-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
-        <div class="banner">
+
+        <nav class="nav menu-responsive">
+            
+            <button class="nav-toggle" >
+                <i class="fa-solid fa-bars fa-1x"></i>
+            </button>
+            <ul class="nav-menu">
+              <li class="nav-menu-item">
+                <a href="#home" class="nav-menu-link nav-link">Home</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="#about-me" class="nav-menu-link nav-link">About me</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="#web" class="nav-menu-link nav-link">Web Development</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="#design" class="nav-menu-link nav-link "
+                  >Illustration</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="#travel" class="nav-menu-link nav-link "
+                  >Travel</a>
+              </li>
+
+
+            </ul>
+          </nav>
+
+
+        
+    </header>
+    <main>
+        <div class="banner" id="home">
             <div class="banner__information">
                 <h1>I'm Claudia Reyna</h1>
-                <p>an electronic engineer, junior front-end developer and illustrator. <br> <br><a href="#main__presentation"><i class="fas fa-chevron-down fa-2x"></i></a>     
+                <p>an electronic engineer, junior front-end developer and illustrator. <br> <br><a href="#about-me"><i class="fas fa-chevron-down fa-2x"></i></a>     
                 </p>  
                                                    
             </div>
         </div>
-    </header>
-    <main>
-        <section class="presentation" id="main__presentation">
+        <section class="presentation" id="about-me">
             <div class="presentation__text">
                 <p>
                     <span>Hola!</span>, I'm Claudia Reyna Huamán. I was born in Perú and I live in Lima. I have been traveling as a digital nomad since 2021. 
@@ -64,7 +97,7 @@
                         <h3>Development</h3>
                         <p>Technologies and tools that I'm currently exploring and learning.</p>
                     </div>
-                    <img src="images/icon_developer.png" alt="icon-development">
+                    <img src="images/icon_developer1.png" alt="icon-development">
                 </div>
 
             </div>
@@ -73,7 +106,7 @@
             <div class="development__background"></div>
         </section>-->
         
-        <section class="development">
+        <section class="development" id="web">
             <div class="development__information">
                 <h2>WEB DEVELOPMENT PROJECTS</h2> 
                 <p>Here are some recent projects. You can find more on my <a href="https://github.com/claurey">github <img src="images/github-brands.svg" alt="github-icon" width="22rem"></a></p>
@@ -106,20 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-third">
-                        </div>
-                        <h3>Shortly landing page</h3>
-                        <a class="icon__dev"  href="https://codepen.io/claurey/pen/NWRXNdx"><img src="images/codepen-brands.svg" alt="codepen-icon"></a>
-                        <div class="development__tags">
-                            <p>html</p>
-                            <p>css</p>
-                            <p>flexbox</p>
-                            <p>responsive</p>
-                        </div>
-                    </div>
-                </div>
+              
                 <div class="card">
                     <div class="card__information">
                         <div class="card__image card__image-four">
@@ -133,40 +153,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-fith">
-                        </div>
-                        <h3>Stats card component </h3>
-                        <a class="icon__dev"  href="https://github.com/claurey/stats-preview-card-component"><img src="images/github-brands.svg" alt="github-icon"></a>
-                        <div class="development__tags">
-                            <p>html</p>
-                            <p>css</p>
-                            <p>flexbox</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-six">
-                        </div>
-                        <h3>Testimonials grid section</h3>
-                        <a class="icon__dev"  href="https://github.com/claurey/testimonials-grid-section"><img src="images/github-brands.svg" alt="github-icon"></a>
-                        <div class="development__tags">
-                            <p>html</p>
-                            <p>css</p>
-                            <p>flexbox</p>
-                        </div>
-                        
-                    </div>
-                </div>
+               
 
             </div>
         </section>
-        <section class="banner__design">
+        <!-- <section class="banner__design">
             <div class="design__background"></div>
-        </section>
-        <section class="design">
+        </section> -->
+        <section class="design" id="design">
             <div class="design__information">
                 <h2>ILLUSTRATIONS</h2> 
                 <p>Here are some illustrations, I used watercolors, digital collage  photoshop and illustrator. For more, you can follow me on: <a href="https://www.instagram.com/claureyh/"><i class="fab fa-instagram"></i></a>   <a href="https://www.behance.net/claureyh"><i class="fab fa-behance-square"></i></a> </p>
@@ -195,31 +189,11 @@
                         
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-four">
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-fith">
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-six">
-                        </div>
-                        
-                    </div>
-                </div>
+               
 
             </div>
         </section>
-        <section class="banner__design">
+        <section class="banner__design" id="travel">
             <div class="travel__background">
                 <h2>I'm a traveler</h2></div> 
                 
@@ -253,31 +227,7 @@
                         
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-four">
-                        </div>
-                        <h3>Salar de Uyuni</h3>
-                        
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-fith">
-                        </div>
-                        <h3>Lago Titicaca</h3>
-                        
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__information">
-                        <div class="card__image card__image-six">
-                        </div>
-                        <h3>Machu Picchu</h3>
-                        
-                        
-                    </div>
-                </div>
+              
                 
 
             </div>
@@ -300,5 +250,6 @@
         
     </footer>
 
+    <script src="./index.js"></script>
 </body>
 </html>
