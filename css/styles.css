@@ -167,7 +167,7 @@ header {
 
 .banner{
     /* background-image: url(../images/girl-car.jpg); */
-    background-image: url(../images/GirlBeach8.jpg);
+    background-image: url(../images/GirlBea9.jpg);
     background-size: cover ;
     background-position: right;
     background-repeat: no-repeat;
@@ -448,6 +448,7 @@ h1{
 
 .card__image-four{
     background-image: url(../images/developer-project-04.jpg);
+    
 }
 .card__image-fith{
     background-image: url(../images/developer-project-05.jpg);
@@ -492,6 +493,8 @@ h1{
     right: 1rem;
     line-height: 0;
 }
+
+
 
 
 
