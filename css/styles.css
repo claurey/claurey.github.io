@@ -232,6 +232,13 @@ h1{
     justify-content: flex-end;
 }
 
+@media screen and (max-width:580px) {
+    .presentation{
+        background-attachment: fixed;
+       
+    }
+}
+
 .presentation__text{
     background-color: var(--primary-yellow);
     border-radius: 31% 69% 40% 60% / 63% 34% 66% 37% ;
@@ -435,20 +442,21 @@ h1{
 }
 .card__image-first{
     background-image: url(../images/developer-project-01.jpg);
-    
+    /* background-position: left; */
 }
 
 .card__image-second{
-    background-image: url(../images/developer-project-02.jpg);
+    background-image: url(../images/songbook.jpg);
+    background-position: left;
 }
 .card__image-third{
     background-image: url(../images/developer-project-03.jpg);
-    
+    /* background-position: left; */
 }
 
 .card__image-four{
     background-image: url(../images/developer-project-04.jpg);
-    
+    background-position: left;
 }
 .card__image-fith{
     background-image: url(../images/developer-project-05.jpg);
